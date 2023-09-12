@@ -1,0 +1,61 @@
+[
+  {
+    "selector": "vaadin-app-layout",
+    "displayName": "Layout",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-app-layout::part(drawer)",
+    "displayName": "Drawer",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "padding",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-app-layout::part(navbar)",
+    "displayName": "Navbar",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "padding",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "selector": "vaadin-chart",
+    "displayName": "Root element",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "padding",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-chart",
+    "displayName": "Data series",
+    "properties": [
+      {
+        "propertyName": "--vaadin-charts-color-0",
+        "displayName": "Color 0",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "--vaadin-charts-color-1",
+        "displayName": "Color 1",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "--vaadin-charts-color-2",
+        "displayName": "Color 2",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "--vaadin-charts-color-3",
+        "displayName": "Color 3",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "--vaadin-charts-color-4",
+        "displayName": "Color 4",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "--vaadin-charts-color-5",
+        "displayName": "Color 5",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "--vaadin-charts-color-6",
+        "displayName": "Color 6",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "--vaadin-charts-color-7",
+        "displayName": "Color 7",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "--vaadin-charts-color-8",
+        "displayName": "Color 8",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "--vaadin-charts-color-9",
+        "displayName": "Color 9",
+        "editorType": "color"
+      }
+    ]
+  }
+]

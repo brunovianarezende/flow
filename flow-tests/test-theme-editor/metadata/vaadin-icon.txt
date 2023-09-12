@@ -1,0 +1,72 @@
+[
+  {
+    "selector": "vaadin-icon",
+    "displayName": "Icon",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Icon color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Icon size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      }
+    ]
+  }
+]

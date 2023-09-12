@@ -1,0 +1,54 @@
+[
+  {
+    "selector": "vaadin-board-row",
+    "displayName": "Layout",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "padding",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "selector": "vaadin-progress-bar::part(bar)",
+    "displayName": "Bar",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-progress-bar::part(value)",
+    "displayName": "Value",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      }
+    ]
+  }
+]

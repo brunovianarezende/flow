@@ -1,0 +1,194 @@
+[
+  {
+    "selector": "vaadin-rich-text-editor",
+    "displayName": "Editor",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "padding",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-rich-text-editor::part(toolbar)",
+    "displayName": "Toolbar",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "padding",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-rich-text-editor::part(toolbar-button)",
+    "displayName": "Toolbar Buttons",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "--lumo-primary-color",
+        "displayName": "Highlight Color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-rich-text-editor::part(content)",
+    "displayName": "Content",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "padding",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  }
+]

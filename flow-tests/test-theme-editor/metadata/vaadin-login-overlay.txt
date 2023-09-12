@@ -1,0 +1,962 @@
+[
+  {
+    "selector": "vaadin-login-overlay-wrapper::part(backdrop)",
+    "displayName": "Overlay backdrop / modality curtain",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper::part(card)",
+    "displayName": "Overlay card",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "padding",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper::part(brand)",
+    "displayName": "Card header",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "padding",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper::part(title)",
+    "displayName": "Title",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper::part(description)",
+    "displayName": "Description",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-login-form-wrapper",
+    "displayName": "Login form",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "padding",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-login-form-wrapper::part(form-title)",
+    "displayName": "Form title",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-login-form-wrapper::part(error-message)",
+    "displayName": "Error message section",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "padding",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-login-form-wrapper::part(error-message-title)",
+    "displayName": "Error message heading",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-login-form-wrapper::part(error-message-description)",
+    "displayName": "Error message description",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-login-form-wrapper [required]::part(input-field)",
+    "displayName": "Input field",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "height",
+        "displayName": "Size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-size-xs",
+          "--lumo-size-s",
+          "--lumo-size-m",
+          "--lumo-size-l",
+          "--lumo-size-xl"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "padding-inline",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-login-form-wrapper [required]::part(label)",
+    "displayName": "Input field label",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-login-form-wrapper [required]::part(helper-text)",
+    "displayName": "Input field helper text",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-login-form-wrapper [required]::part(error-message)",
+    "displayName": "Input field error message",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-password-field::part(reveal-button)",
+    "displayName": "Password field reveal button",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Icon color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Icon size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-button[theme~=\"submit\"]",
+    "displayName": "Log In Button",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "--lumo-button-size",
+        "displayName": "Size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-size-xs",
+          "--lumo-size-s",
+          "--lumo-size-m",
+          "--lumo-size-l",
+          "--lumo-size-xl"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "padding-inline",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form vaadin-button[theme~=\"submit\"]::part(label)",
+    "displayName": "Log In Button Label",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form [slot=\"forgot-password\"]",
+    "displayName": "Forgot password button",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "--lumo-button-size",
+        "displayName": "Size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-size-xs",
+          "--lumo-size-s",
+          "--lumo-size-m",
+          "--lumo-size-l",
+          "--lumo-size-xl"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "padding-inline",
+        "displayName": "Padding",
+        "editorType": "range",
+        "presets": [
+          "--lumo-space-xs",
+          "--lumo-space-s",
+          "--lumo-space-m",
+          "--lumo-space-l",
+          "--lumo-space-xl"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-login-overlay-wrapper vaadin-login-form [slot=\"forgot-password\"]::part(label)",
+    "displayName": "Forgot password button label",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      }
+    ]
+  }
+]

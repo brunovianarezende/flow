@@ -1,0 +1,409 @@
+[
+  {
+    "selector": "vaadin-grid",
+    "displayName": "Root element",
+    "properties": [
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-grid::part(header-cell)",
+    "displayName": "Header row cell",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "--lumo-font-size-s",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      },
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-grid::part(body-cell)",
+    "displayName": "Body cell",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      },
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-grid::part(even-row-cell)",
+    "displayName": "Cell in even row",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      },
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-grid::part(odd-row-cell)",
+    "displayName": "Cell in odd row",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      },
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-grid::part(selected-row-cell)",
+    "displayName": "Cell in selected row",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Text color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      },
+      {
+        "propertyName": "font-size",
+        "displayName": "Font size",
+        "editorType": "range",
+        "presets": [
+          "--lumo-font-size-xxs",
+          "--lumo-font-size-xs",
+          "--lumo-font-size-s",
+          "--lumo-font-size-m",
+          "--lumo-font-size-l",
+          "--lumo-font-size-xl",
+          "--lumo-font-size-xxl",
+          "--lumo-font-size-xxxl"
+        ],
+        "icon": "font"
+      },
+      {
+        "propertyName": "font-weight",
+        "displayName": "Bold",
+        "editorType": "checkbox",
+        "checkedValue": "bold"
+      },
+      {
+        "propertyName": "font-style",
+        "displayName": "Italic",
+        "editorType": "checkbox",
+        "checkedValue": "italic"
+      },
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-grid vaadin-grid-cell-content > vaadin-checkbox::part(checkbox)",
+    "displayName": "Row selection checkbox",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-grid vaadin-grid-cell-content > vaadin-checkbox[checked]::part(checkbox)",
+    "displayName": "Row selection checkbox (when checked)",
+    "properties": [
+      {
+        "propertyName": "background-color",
+        "displayName": "Background color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-color",
+        "displayName": "Border color",
+        "editorType": "color"
+      },
+      {
+        "propertyName": "border-width",
+        "displayName": "Border width",
+        "editorType": "range",
+        "presets": [
+          "0px",
+          "1px",
+          "2px",
+          "3px"
+        ],
+        "icon": "square"
+      },
+      {
+        "propertyName": "border-radius",
+        "displayName": "Border radius",
+        "editorType": "range",
+        "presets": [
+          "0",
+          "--lumo-border-radius-m",
+          "--lumo-border-radius-l"
+        ],
+        "icon": "square"
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-grid vaadin-grid-cell-content > vaadin-checkbox::part(checkbox)::after",
+    "displayName": "Row selection checkbox checkmark",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Icon color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      }
+    ]
+  },
+  {
+    "selector": "vaadin-grid vaadin-grid-tree-toggle::part(toggle)",
+    "displayName": "Expand icon (for tree grid)",
+    "properties": [
+      {
+        "propertyName": "color",
+        "displayName": "Icon color",
+        "editorType": "color",
+        "presets": [
+          "--lumo-header-text-color",
+          "--lumo-body-text-color",
+          "--lumo-secondary-text-color",
+          "--lumo-tertiary-text-color",
+          "--lumo-disabled-text-color",
+          "--lumo-primary-text-color",
+          "--lumo-error-text-color",
+          "--lumo-success-text-color"
+        ]
+      }
+    ]
+  }
+]
